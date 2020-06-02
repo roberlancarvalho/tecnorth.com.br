@@ -5711,7 +5711,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 36px;
 	height: 36px;
 	margin: 0 auto;
-	border: 3px solid #62b0d3;
+	border: 3px solid #505cfd;
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -7313,7 +7313,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside .icon {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main {
@@ -8550,8 +8550,8 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .owl-carousel .owl-dot.active span, .owl-carousel .owl-dot:hover span {
-	background: #62b0d3;
-	border-color: #62b0d3;
+	background: #505cfd;
+	border-color: #505cfd;
 }
 
 .test {
@@ -8691,7 +8691,7 @@ html.rd-navbar-fixed-linked .page {
 	}
 	.review-carousel .owl-dots .active:before {
 		font-size: 18px;
-		color: #62b0d3;
+		color: #505cfd;
 		font-family: "Poppins", sans-serif;
 		font-weight: 700;
 		position: absolute;
@@ -8703,7 +8703,7 @@ html.rd-navbar-fixed-linked .page {
 	.review-carousel .owl-dots .active:after {
 		content: '';
 		width: 3px;
-		background-color: #62b0d3;
+		background-color: #505cfd;
 		height: 67px;
 		top: 21px;
 		left: 50%;

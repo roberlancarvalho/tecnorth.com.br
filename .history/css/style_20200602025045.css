@@ -6027,7 +6027,7 @@ html.tablet .ui-to-top {
 }
 
 .navbar-contact-list li a, .navbar-contact-list li a:focus, .navbar-contact-list li a:active {
-	color: rgba(170, 178, 185, 0.5);
+	color: #272e39;
 }
 
 .navbar-contact-list li a:hover {

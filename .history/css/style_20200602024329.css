@@ -5711,7 +5711,7 @@ html:not(.lt-ie10) .not-animated {
 	width: 36px;
 	height: 36px;
 	margin: 0 auto;
-	border: 3px solid #62b0d3;
+	border: 3px solid #505cfd;
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
@@ -7313,7 +7313,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside .icon {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main {
