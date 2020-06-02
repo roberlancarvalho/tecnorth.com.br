@@ -1740,8 +1740,7 @@ hr {
 .btn-rounded-outline:hover, .btn-rounded-outline:active, .btn-rounded-outline.active {
 	color: #ffffff;
 	background-color: #272e39;
-	border-color: #62b0d3;
-}
+	border-color: #62b0d362b0d3}
 
 .btn-rounded-outline.button-ujarak::before {
 	background: #2c343b;
