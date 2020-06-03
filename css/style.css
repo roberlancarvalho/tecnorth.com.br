@@ -6067,8 +6067,8 @@ html.tablet .ui-to-top {
 .rd-navbar-collapse-toggle span:before,
 .rd-navbar-collapse-toggle span:after {
   position: absolute;
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   line-height: 6px;
   text-align: center;
   background: #ffffff;
@@ -6994,8 +6994,8 @@ html.tablet .ui-to-top {
 .rd-navbar-fixed .rd-navbar-nav-wrap {
   color: #ffffff;
   background: #272e39;
-  opacity: 0.9;
-  border: 1px solid #d7d7d7;
+  opacity: 0.95;
+  border: 0px solid #d7d7d7;
   box-shadow: none;
 }
 
@@ -7070,7 +7070,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-search-toggle:hover {
-  color: #505cfd;
+  color: #62b0d3;
 }
 
 .rd-navbar-fixed .rd-navbar-collapse {
@@ -7080,7 +7080,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-collapse,
 .rd-navbar-fixed .rd-navbar-collapse a {
-  color: #9b9b9b;
+  color: #272e39;
 }
 
 html.rd-navbar-fixed-linked .page {
