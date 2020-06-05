@@ -2130,7 +2130,7 @@ input:-webkit-autofill ~ .form-validation {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #272e39;
+  color: #888888;
   background-color: transparent;
   background-image: none;
   border-radius: 0;
@@ -5636,7 +5636,7 @@ html [class*="section-"].section-bottom-0 {
 
 p.rights {
   font-size: 14px;
-  color: #888888;
+  color: #aab0b9;
 }
 
 p.rights a {
@@ -5644,7 +5644,7 @@ p.rights a {
 }
 
 p.rights a:hover {
-  color: #505cfd;
+  color: #62b0d3;
 }
 
 [style*="z-index: 1000;"] {
