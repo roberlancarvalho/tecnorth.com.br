@@ -392,6 +392,7 @@ p [style*="max-width"] {
 */
 .brand {
   display: inline-block;
+  width: 70%;
 }
 
 .brand .brand-logo-light {
@@ -6989,6 +6990,7 @@ html.tablet .ui-to-top {
   color: #9b9b9b;
   box-shadow: 0px 0px 15px #272e39;
   background: #272e39;
+  opacity: 0.95;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
