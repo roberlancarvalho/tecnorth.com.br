@@ -16,10 +16,10 @@ try {
         die('MF001');
     }
 
-    function getRemoteIPAddress() {
+    function getRemoteIPAddress()
+    {
         if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
             return $_SERVER['HTTP_CLIENT_IP'];
-
         } else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
             return $_SERVER['HTTP_X_FORWARDED_FOR'];
         }
@@ -33,7 +33,7 @@ try {
     $template = file_get_contents('rd-mailform.tpl');
 
     if (isset($_POST['form-type'])) {
-        switch ($_POST['form-type']){
+        switch ($_POST['form-type']) {
             case 'contact':
                 $subject = 'A message from your site visitor';
                 break;
@@ -47,7 +47,7 @@ try {
                 $subject = 'A message from your site visitor';
                 break;
         }
-    }else{
+    } else {
         die('MF004');
     }
 
@@ -55,24 +55,27 @@ try {
         $template = str_replace(
             array("<!-- #{FromState} -->", "<!-- #{FromEmail} -->"),
             array("Email:", $_POST['email']),
-            $template);
+            $template
+        );
     }
 
     if (isset($_POST['message'])) {
         $template = str_replace(
             array("<!-- #{MessageState} -->", "<!-- #{MessageDescription} -->"),
             array("Message:", $_POST['message']),
-            $template);
+            $template
+        );
     }
 
     // In a regular expression, the character \v is used as "anything", since this character is rare
     preg_match("/(<!-- #\{BeginInfo\} -->)([^\v]*?)(<!-- #\{EndInfo\} -->)/", $template, $matches, PREG_OFFSET_CAPTURE);
     foreach ($_POST as $key => $value) {
-        if ($key != "counter" && $key != "email" && $key != "message" && $key != "form-type" && $key != "g-recaptcha-response" && !empty($value)){
+        if ($key != "counter" && $key != "email" && $key != "message" && $key != "form-type" && $key != "g-recaptcha-response" && !empty($value)) {
             $info = str_replace(
                 array("<!-- #{BeginInfo} -->", "<!-- #{InfoState} -->", "<!-- #{InfoDescription} -->"),
                 array("", ucfirst($key) . ':', $value),
-                $matches[0][0]);
+                $matches[0][0]
+            );
 
             $template = str_replace("<!-- #{EndInfo} -->", $info, $template);
         }
@@ -81,7 +84,8 @@ try {
     $template = str_replace(
         array("<!-- #{Subject} -->", "<!-- #{SiteName} -->"),
         array($subject, $_SERVER['SERVER_NAME']),
-        $template);
+        $template
+    );
 
     $mail = new PHPMailer();
 
@@ -118,15 +122,19 @@ try {
     $mail->From = $_POST['email'];
 
     # Attach file
-    if (isset($_FILES['file']) &&
-        $_FILES['file']['error'] == UPLOAD_ERR_OK) {
-        $mail->AddAttachment($_FILES['file']['tmp_name'],
-            $_FILES['file']['name']);
+    if (
+        isset($_FILES['file']) &&
+        $_FILES['file']['error'] == UPLOAD_ERR_OK
+    ) {
+        $mail->AddAttachment(
+            $_FILES['file']['tmp_name'],
+            $_FILES['file']['name']
+        );
     }
 
-    if (isset($_POST['name'])){
+    if (isset($_POST['name'])) {
         $mail->FromName = $_POST['name'];
-    }else{
+    } else {
         $mail->FromName = "Site Visitor";
     }
 
