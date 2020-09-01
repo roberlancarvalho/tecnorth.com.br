@@ -387,6 +387,23 @@ p [style*="max-width"] {
   }
 }
 
+/* .coluna{
+  float: left;
+  width: 33.33%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+} */
+
 /*
 * Brand
 */
