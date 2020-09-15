@@ -1,0 +1,12 @@
+<meta property="og:locale" content="pt_BR" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+<meta property="description" content="Desenvolvimento de Aplicações Web" />
+<meta property="keywords" content="criação de sites, desenvolvimento de lojas virtuais, desenvolvimento de sistemas web, desenvolvimento web, web design, web development, programador" />
+<meta property="author" content="Roberlan Carvalho" />
+<meta property="robots" content="all" />
+<meta property="og:image" content="https://tecnorth.com.br/images/miniatura.jpg" />
+<meta property="og:url" content="https://tecnorth.com.br/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Tec North" />
+<meta property="og:description" content="Desenvolvimento de Aplicações Web" />
+<meta property="fb:app_id" content="1686730028161646" />
