@@ -3,198 +3,213 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168578309-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168578309-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'UA-168578309-1');
-  </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <title>Tec North</title>
-  <meta property="og:locale" content="pt_BR">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta property="description" content="Desenvolvimento de Aplicações Web">
-  <meta property="keywords"
-    content="criação de sites quixadá, sites, programador quixadá, desenvolvedor quixadá, desenvolvimento de lojas virtuais, desenvolvimento de sistemas web, desenvolvimento web, web design, web design quixadá, web development, programador">
-  <meta property="author" content="Roberlan Carvalho">
-  <meta property="robots" content="all">
-  <meta property="og:image" content="https://tecnorth.com.br/images/miniatura.jpg" />
-  <meta property="og:url" content="https://tecnorth.com.br/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Tec North" />
-  <meta property="og:description" content="Desenvolvimento de Aplicações Web" />
-  <meta property="fb:app_id" content="1686730028161646" />
-  <link rel=”canonical” href=”https://www.tecnorth.com.br/” />
+        gtag('config', 'UA-168578309-1');
+    </script>
 
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css"
-    href="//fonts.googleapis.com/css?family=Montserrat:300,400,700%7CPoppins:300,400,500,700,900">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    .ie-panel {
-      display: none;
-      background: #212121;
-      padding: 10px 0;
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
-      clear: both;
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
+    <title>Tec North</title>
+    <meta property="og:locale" content="pt_BR">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="description" content="Desenvolvimento de Aplicações Web">
+    <meta property="keywords" content="criação de sites quixadá, sites, programador quixadá, desenvolvedor quixadá, desenvolvimento de lojas virtuais, desenvolvimento de sistemas web, desenvolvimento web, web design, web design quixadá, web development, programador">
+    <meta property="author" content="Roberlan Carvalho">
+    <meta property="robots" content="all">
+    <meta property="og:image" content="https://tecnorth.com.br/images/miniatura.jpg" />
+    <meta property="og:url" content="https://tecnorth.com.br/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tec North" />
+    <meta property="og:description" content="Desenvolvimento de Aplicações Web" />
+    <meta property="fb:app_id" content="1686730028161646" />
+    <link rel=”canonical” href=”https://www.tecnorth.com.br/” />
 
-    html.ie-10 .ie-panel,
-    html.lt-ie-10 .ie-panel {
-      display: block;
-    }
-  </style>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:300,400,700%7CPoppins:300,400,500,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '473759674251057');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=473759674251057&ev=PageView&noscript=1"
+  /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <style>
+        .ie-panel {
+            display: none;
+            background: #212121;
+            padding: 10px 0;
+            box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+            clear: both;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        html.ie-10 .ie-panel,
+        html.lt-ie-10 .ie-panel {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
-        src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
-        alt="Você está usando um navegador desatualizado. Para uma experiência de navegação mais rápida e segura, atualize gratuitamente hoje."></a>
-  </div>
-  <div class="preloader">
-    <div class="preloader-body">
-      <div class="cssload-container">
-        <div class="cssload-speeding-wheel"></div>
-      </div>
-      <p>Carregando...</p>
+    <div class="ie-panel">
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="Você está usando um navegador desatualizado. Para uma experiência de navegação mais rápida e segura, atualize gratuitamente hoje."></a>
     </div>
-  </div>
-  <div class="page">
-
-    <header class="section page-header">
-      <!--RD Navbar-->
-      <div class="rd-navbar-wrap">
-        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
-          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
-          data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
-          data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
-          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
-            <span></span></div>
-          <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-dark">
-            <div class="rd-navbar-aside">
-
-              <ul class="list-inline navbar-contact-list">
-                <li>
-                  <div class="unit unit-spacing-xs align-items-center">
-                    <div class="unit-left"><span class="icon text-middle fa-whatsapp"></span></div>
-                    <div class="unit-body"><a href="https://wa.me/message/AV4DPSQTQOA6E1" target="_blank">(88)
-                        9.8163-2064</a></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="unit unit-spacing-xs align-items-center">
-                    <div class="unit-left"><span class="icon text-middle fa-envelope"></span></div>
-                    <div class="unit-body"><a href="mailto:tecnorth@tecnorth.com.br"
-                        target="_blank">tecnorth@tecnorth.com.br</a></div>
-                  </div>
-                </li>
-                <li>
-                  <div class="unit unit-spacing-xs align-items-center">
-                    <div class="unit-left"><span class="icon text-middle fa-map-marker"></span></div>
-                    <div class="unit-body"><a href="https://goo.gl/maps/AshMameJ8T1Xu4Gj7" target="_blank">Rua José de
-                        Queiroz Pessoa, 1812, Quixadá-CE</a></div>
-                  </div>
-                </li>
-              </ul>
-
-              <ul class="social-links">
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-linkedin"
-                    href="https://www.linkedin.com/company/tec-north-desenvolvimento/" target="_blank"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook"
-                    href="https://www.facebook.com/TecNorth/" target="_blank"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram"
-                    href="https://www.instagram.com/tecnorth/" target="_blank"></a></li>
-                <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"
-                    target="_blank"></a></li>
-              </ul>
+    <div class="preloader">
+        <div class="preloader-body">
+            <div class="cssload-container">
+                <div class="cssload-speeding-wheel"></div>
             </div>
-          </div>
-          <div class="rd-navbar-main-outer">
-            <div class="rd-navbar-main">
-              <!--RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!--RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                <!--RD Navbar Brand-->
-                <div class="rd-navbar-brand">
-                  <!--Brand--><a class="brand" href="https://tecnorth.com.br/"><img class="brand-logo-dark"
-                      src="images/logo-default-200x34.png" alt="Logo Tec North" title="Logo Tec North"
-                      height="17" /><img class="brand-logo-light" src="images/logo-inverse-200x34.png"
-                      alt="Logo Tec North" title="Logo Tec North" width="100" height="17" /></a>
-                </div>
-              </div>
-              <div class="rd-navbar-main-element">
-                <div class="rd-navbar-nav-wrap">
-                  <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="https://tecnorth.com.br/">Início</a>
-                    </li>
-
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.html">Sobre</a>
-                    </li>
-
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="servicos.html">Serviços</a>
-                    </li>
-
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="marketing-digital.html">Marketing
-                        Digital</a>
-                    </li>
-
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="portfolio.html">Portfólio</a>
-                    </li>
-
-                    <li class="rd-nav-item dropdown">
-                      <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Blogs
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <!-- <small class="center dropdown-item">Blogs dos desenvolvedores</small> -->
-                        <a class="dropdown-item" href="https://roberlancarvalho.com/" target="_blank">Roberlan
-                          Carvalho</a>
-                        <a class="dropdown-item" href="#">Christian Castro</a>
-                      </div>
-                    </li>
-
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="contato.html">Contato</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-        </nav>
-      </div>
-    </header>
-
-    <!--Main section-->
-    <section class="section main-section parallax-scene-js"
-      style="background:url('images/bg-1-1700x803.jpg') no-repeat center center; background-size:cover;">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8 col-12">
-            <div class="main-decorated-box text-center text-xl-left">
-              <h1 class="text-white text-xl-center wow slideInRight" data-wow-delay=".3s"><span
-                  class="align-top offset-top-30 d-inline-block font-weight-light prefix-text">Soluções</span><span
-                  class="big font-weight-bold d-inline-flex offset-right-170"> em</span><span
-                  class="biggest d-block d-xl-flex font-weight-bold"> tecnologia</span></h1>
-              <div class="decorated-subtitle text-italic text-white wow slideInLeft">Dê um norte às suas ideias</div>
-            </div>
-          </div>
-          <div class="col-12 text-center offset-top-75" data-wow-delay=".2s"><a
-              class="button-way-point d-inline-block text-center d-inline-flex flex-column justify-content-center"
-              href="#" data-custom-scroll-to="about"><span class="fa-chevron-down"></span></a></div>
+            <p>Carregando...</p>
         </div>
-      </div>
-      <!-- <div class="decorate-layer">
+    </div>
+    <div class="page">
+
+        <header class="section page-header">
+            <!--RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
+                    data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                    <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+                        <span></span>
+                    </div>
+                    <div class="rd-navbar-aside-outer rd-navbar-collapse bg-gray-dark">
+                        <div class="rd-navbar-aside">
+
+                            <ul class="list-inline navbar-contact-list">
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><span class="icon text-middle fa-whatsapp"></span></div>
+                                        <div class="unit-body"><a href="https://wa.me/message/AV4DPSQTQOA6E1" target="_blank">(88)
+                        9.8163-2064</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><span class="icon text-middle fa-envelope"></span></div>
+                                        <div class="unit-body"><a href="mailto:tecnorth@tecnorth.com.br" target="_blank">tecnorth@tecnorth.com.br</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="unit unit-spacing-xs align-items-center">
+                                        <div class="unit-left"><span class="icon text-middle fa-map-marker"></span></div>
+                                        <div class="unit-body"><a href="https://goo.gl/maps/AshMameJ8T1Xu4Gj7" target="_blank">Rua José de
+                        Queiroz Pessoa, 1812, Quixadá-CE</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <ul class="social-links">
+                                <li>
+                                    <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-linkedin" href="https://www.linkedin.com/company/tec-north-desenvolvimento/" target="_blank"></a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="https://www.facebook.com/TecNorth/" target="_blank"></a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="https://www.instagram.com/tecnorth/" target="_blank"></a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <!--RD Navbar Panel-->
+                            <div class="rd-navbar-panel">
+                                <!--RD Navbar Toggle-->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                                <!--RD Navbar Brand-->
+                                <div class="rd-navbar-brand">
+                                    <!--Brand-->
+                                    <a class="brand" href="https://tecnorth.com.br/"><img class="brand-logo-dark" src="images/logo-default-200x34.png" alt="Logo Tec North" title="Logo Tec North" height="17" /><img class="brand-logo-light" src="images/logo-inverse-200x34.png" alt="Logo Tec North" title="Logo Tec North"
+                                            width="100" height="17" /></a>
+                                </div>
+                            </div>
+                            <div class="rd-navbar-main-element">
+                                <div class="rd-navbar-nav-wrap">
+                                    <ul class="rd-navbar-nav">
+                                        <li class="rd-nav-item active"><a class="rd-nav-link" href="https://tecnorth.com.br/">Início</a>
+                                        </li>
+
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.html">Sobre</a>
+                                        </li>
+
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="servicos.html">Serviços</a>
+                                        </li>
+
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="marketing-digital.html">Marketing
+                        Digital</a>
+                                        </li>
+
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="portfolio.html">Portfólio</a>
+                                        </li>
+
+                                        <li class="rd-nav-item"><a class="rd-nav-link" target="_blank" href="https://roberlancarvalho.com/">
+                        Blog
+                      </a>
+                                        </li>
+
+                                        <li class="rd-nav-item"><a class="rd-nav-link" href="contato.html">Contato</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                </nav>
+                </div>
+        </header>
+
+        <!--Main section-->
+        <section class="section main-section parallax-scene-js" style="background:url('images/bg-1-1700x803.jpg') no-repeat center center; background-size:cover;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-12">
+                        <div class="main-decorated-box text-center text-xl-left">
+                            <h1 class="text-white text-xl-center wow slideInRight" data-wow-delay=".3s"><span class="align-top offset-top-30 d-inline-block font-weight-light prefix-text">Soluções</span><span class="big font-weight-bold d-inline-flex offset-right-170"> em</span><span class="biggest d-block d-xl-flex font-weight-bold"> tecnologia</span></h1>
+                            <div class="decorated-subtitle text-italic text-white wow slideInLeft">Dê um norte às suas ideias</div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center offset-top-75" data-wow-delay=".2s"><a class="button-way-point d-inline-block text-center d-inline-flex flex-column justify-content-center" href="#" data-custom-scroll-to="about"><span class="fa-chevron-down"></span></a></div>
+                </div>
+            </div>
+            <!-- <div class="decorate-layer">
         <div class="layer-1">
           <div class="layer" data-depth=".20"><img src="images/parallax-item-1-563x532.png" alt="" width="563"
               height="266" />
@@ -226,195 +241,162 @@
           </div>
         </div>
       </div> -->
-    </section>
+        </section>
 
-    <!--About-->
-    <section class="section section-sm position-relative" id="about">
-      <div class="container">
-        <div class="row row-30">
-          <div class="col-lg-6">
-            <div class="block-decorate-img wow fadeInLeft" data-wow-delay=".2s"><img src="images/home-1-570x703.jpg"
-                alt="Banner Tec North" title="Banner Tec North" width="570" height="351" />
-            </div>
-          </div>
-          <div class="col-lg-6 col-12">
-            <div class="block-sm offset-top-45">
-              <div class="section-name wow fadeInRight" data-wow-delay=".2s">Sobre nós</div>
-              <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">O Que<span
-                  class="text-primary"> Nós Fazemos</span></h3>
-              <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">Somos especialistas em trazer soluções em
-                tecnologia para os nossos clientes. Desenvolvemos sites, lojas virtuais, sistemas para internet. Nossas
-                aplicações são desenvolvidas sempre pensando na satisfação do cliente, tanto no visual, quanto nas
-                funcionalidades.</p>
-              <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Somos
-                uma empresa de desenvolvimento web que visa a qualidade e o desempenho.</p><a
-                class="button-width-190 button-primary button-circle button-lg button offset-top-30"
-                href="sobre.html">Saber
+        <!--About-->
+        <section class="section section-sm position-relative" id="about">
+            <div class="container">
+                <div class="row row-30">
+                    <div class="col-lg-6">
+                        <div class="block-decorate-img wow fadeInLeft" data-wow-delay=".2s"><img src="images/home-1-570x703.jpg" alt="Banner Tec North" title="Banner Tec North" width="570" height="351" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="block-sm offset-top-45">
+                            <div class="section-name wow fadeInRight" data-wow-delay=".2s">Sobre nós</div>
+                            <h3 class="wow fadeInLeft text-capitalize devider-bottom" data-wow-delay=".3s">O Que<span class="text-primary"> Nós Fazemos</span></h3>
+                            <p class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">Somos especialistas em trazer soluções em tecnologia para os nossos clientes. Desenvolvemos sites, lojas virtuais, sistemas para internet. Nossas aplicações são desenvolvidas sempre pensando na satisfação do cliente, tanto
+                                no visual, quanto nas funcionalidades.
+                            </p>
+                            <p class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">Somos uma empresa de desenvolvimento web que visa a qualidade e o desempenho.</p><a class="button-width-190 button-primary button-circle button-lg button offset-top-30" href="sobre.html">Saber
                 mais</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="decor-text decor-text-1">Sobre nós</div>
-    </section>
-    <!--Features-->
-    <section class="section custom-section position-relative section-md">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-7 col-lg-7 col-12">
-            <div class="section-name wow fadeInRight">nossos recursos</div>
-            <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s">Por que as empresas<span
-                class="text-primary"> nos escolhem</span></h3>
-            <p>Com 2 anos de experiência em Desenvolvimento de Softwares para Web, nós contamos com as tecnologias mais
-              atuais para a soluções. Conheça os nossos métodos e recursos:</p>
-            <div class="row row-15">
-              <div class="col-xl-6 wow fadeInUp" data-wow-delay=".2s">
-                <div class="box-default">
-                  <div class="box-default-title">Soluções Inovadoras</div>
-                  <p class="box-default-description">Nossos serviços e soluções são desenvolvidos com inovações nos
-                    negócios.</p>
-                  <span class="box-default-icon novi-icon icon-lg mercury-icon-lightbulb-gears"></span>
+            <div class="decor-text decor-text-1">Sobre nós</div>
+        </section>
+        <!--Features-->
+        <section class="section custom-section position-relative section-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-12">
+                        <div class="section-name wow fadeInRight">nossos recursos</div>
+                        <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s">Por que as empresas<span class="text-primary"> nos escolhem</span></h3>
+                        <p>Com 2 anos de experiência em Desenvolvimento de Softwares para Web, nós contamos com as tecnologias mais atuais para a soluções. Conheça os nossos métodos e recursos:</p>
+                        <div class="row row-15">
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay=".2s">
+                                <div class="box-default">
+                                    <div class="box-default-title">Soluções Inovadoras</div>
+                                    <p class="box-default-description">Nossos serviços e soluções são desenvolvidos com inovações nos negócios.
+                                    </p>
+                                    <span class="box-default-icon novi-icon icon-lg mercury-icon-lightbulb-gears"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="box-default">
+                                    <div class="box-default-title">Pensamento estratégico</div>
+                                    <p class="box-default-description">O Tec North trabalha para criar o melhor caminho e dar um <strong>um norte</strong> ao seu o negócio ou ideia.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-target-2"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
+                                <div class="box-default">
+                                    <div class="box-default-title">Equipe preparada</div>
+                                    <p class="box-default-description">Temos ótimos profissionais da área, para trazer as melhores soluções.
+                                    </p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="box-default">
+                                    <div class="box-default-title">Abordagem criativa</div>
+                                    <p class="box-default-description">Todo projeto em que trabalhamos é baseado nas soluções criativas de qualquer problema.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-partners"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-xl-6 wow fadeInUp" data-wow-delay=".3s">
-                <div class="box-default">
-                  <div class="box-default-title">Pensamento estratégico</div>
-                  <p class="box-default-description">O Tec North trabalha para criar o melhor caminho
-                    e dar um <strong>um norte</strong> ao seu o negócio ou ideia.</p><span
-                    class="box-default-icon novi-icon icon-lg mercury-icon-target-2"></span>
-                </div>
-              </div>
-              <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
-                <div class="box-default">
-                  <div class="box-default-title">Equipe preparada</div>
-                  <p class="box-default-description">Temos ótimos profissionais da área, para trazer as melhores
-                    soluções.
-                  </p><span class="box-default-icon novi-icon icon-lg mercury-icon-user"></span>
-                </div>
-              </div>
-              <div class="col-xl-6 wow fadeInUp" data-wow-delay=".5s">
-                <div class="box-default">
-                  <div class="box-default-title">Abordagem criativa</div>
-                  <p class="box-default-description">Todo projeto em que trabalhamos é baseado nas soluções criativas de
-                    qualquer problema.</p><span class="box-default-icon novi-icon icon-lg mercury-icon-partners"></span>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src="images/home-2-636x480.jpg"
-          alt="Soluções Tec North" title="Soluções Tec North" width="636" height="240" />
-      </div>
-      <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">recursos</div>
-    </section>
+            <div class="image-left-side wow slideInRight" data-wow-delay=".5s"><img src="images/home-2-636x480.jpg" alt="Soluções Tec North" title="Soluções Tec North" width="636" height="240" />
+            </div>
+            <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">recursos</div>
+        </section>
 
-    <!--Counters-->
-    <section class="section bg-image-2">
-      <div class="container section-md">
-        <div class="row row-30 text-center">
-          <div class="col-xl-3 col-sm-6 col-12">
-            <div class="counter-classic">
-              <div class="counter-classic-number"><span
-                  class="icon-lg novi-icon offset-right-10 mercury-icon-time"></span><span class="counter text-white"
-                  data-speed="2000">2018</span>
-              </div>
-              <div class="counter-classic-title">Ano de Início</div>
+        <!--Counters-->
+        <section class="section bg-image-2">
+            <div class="container section-md">
+                <div class="row row-30 text-center">
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="counter-classic">
+                            <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-time"></span><span class="counter text-white" data-speed="2000">2018</span>
+                            </div>
+                            <div class="counter-classic-title">Ano de Início</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="counter-classic">
+                            <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-folder"></span><span class="counter text-white" data-speed="2000">48</span>
+                            </div>
+                            <div class="counter-classic-title">Projetos de Sucesso</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="counter-classic">
+                            <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-users"></span><span class="counter text-white" data-speed="2000">11</span><span class="symbol text-white"></span>
+                            </div>
+                            <div class="counter-classic-title">Parcerias</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-sm-6 col-12">
+                        <div class="counter-classic">
+                            <div class="counter-classic-number"><span class="icon-lg novi-icon offset-right-10 mercury-icon-group"></span><span class="counter text-white" data-speed="2000">32</span>
+                            </div>
+                            <div class="counter-classic-title">Clientes ativos</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-sm-6 col-12">
-            <div class="counter-classic">
-              <div class="counter-classic-number"><span
-                  class="icon-lg novi-icon offset-right-10 mercury-icon-folder"></span><span class="counter text-white"
-                  data-speed="2000">48</span>
-              </div>
-              <div class="counter-classic-title">Projetos de Sucesso</div>
+        </section>
+        <!--Pricing-->
+        <section class="section section-md bg-xs-overlay" style="background:url('images/bg-image-3-1700x883.jpg')no-repeat;background-size:cover">
+            <div class="container">
+                <div class="row row-50 justify-content-center">
+                    <div class="col-12 text-center col-md-10 col-lg-8">
+                        <div class="section-name wow fadeInRight" data-wow-delay=".2s">Nossos PLanos</div>
+                        <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">Escolha o plano perfeito<span class="text-primary"> para a sua ideia</span></h3>
+                        <p>Oferecemos três planos de diferentes, que cobrem as necessidades de nossos clientes. Sinta-se livre para escolher um plano preferível ou saiba mais sobre cada um deles abaixo.</p>
+                    </div>
+                </div>
+                <div class="row row-30 justify-content-center">
+                    <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
+                        <div class="pricing-box bg-gray-dark">
+                            <div class="pricing-box-tittle">Sites</div>
+                            <p>Sites institucionais</p>
+                            <hr /> a partir de
+                            <div class="pricing-box-inner"><span class="pricing-box-symbol">R$</span><span class="pricing-box-price">90,00</span></div>
+                            <div class="pricing-box-label bg-gray">MENSAIS</div>
+                            <p>Design Responsivo <br> Identidade visual <br> SEO e Google Analytics</p><a class="button button-190 button-circle btn-primary-rounded" href="site.html">Saber mais</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="pricing-box bg-gray-primary">
+                            <div class="pricing-box-tittle">E-commerce</div>
+                            <p>Loja virtual</p>
+                            <hr /> a partir de
+                            <div class="pricing-box-inner"><span class="pricing-box-symbol">R$</span><span class="pricing-box-price">135,00</span></div>
+                            <div class="pricing-box-label bg-gray-primary-light">MENSAIS</div>
+                            <p>Carrinho de compras <br> Sistemas de frete e pagamento <br> CMS (Gerenciador)</p><a class="button button-190 button-circle btn-rounded-outline" href="ecommerce.html">Saber mais</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
+                        <div class="pricing-box bg-gray-dark">
+                            <div class="pricing-box-tittle">Sistemas Web</div>
+                            <p>Portais de notícias, entre outros</p>
+                            <hr /> a partir de
+                            <div class="pricing-box-inner"><span class="pricing-box-symbol">R$</span><span class="pricing-box-price">150,00</span></div>
+                            <div class="pricing-box-label bg-gray">MENSAIS</div>
+                            <p>Sistema de cadastro e login <br> CMS com painel administrativo e gerenciamento de conteúdo</p><a class="button button-190 button-circle btn-primary-rounded" href="sistema-web.html">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-sm-6 col-12">
-            <div class="counter-classic">
-              <div class="counter-classic-number"><span
-                  class="icon-lg novi-icon offset-right-10 mercury-icon-users"></span><span class="counter text-white"
-                  data-speed="2000">11</span><span class="symbol text-white"></span>
-              </div>
-              <div class="counter-classic-title">Parcerias</div>
-            </div>
-          </div>
-          <div class="col-xl-3 col-sm-6 col-12">
-            <div class="counter-classic">
-              <div class="counter-classic-number"><span
-                  class="icon-lg novi-icon offset-right-10 mercury-icon-group"></span><span class="counter text-white"
-                  data-speed="2000">32</span>
-              </div>
-              <div class="counter-classic-title">Clientes ativos</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Pricing-->
-    <section class="section section-md bg-xs-overlay"
-      style="background:url('images/bg-image-3-1700x883.jpg')no-repeat;background-size:cover">
-      <div class="container">
-        <div class="row row-50 justify-content-center">
-          <div class="col-12 text-center col-md-10 col-lg-8">
-            <div class="section-name wow fadeInRight" data-wow-delay=".2s">Nossos PLanos</div>
-            <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s">Escolha o plano perfeito<span
-                class="text-primary"> para a sua ideia</span></h3>
-            <p>Oferecemos três planos de diferentes, que cobrem as necessidades de nossos clientes.
-              Sinta-se livre para escolher um plano preferível ou saiba mais sobre cada um deles abaixo.</p>
-          </div>
-        </div>
-        <div class="row row-30 justify-content-center">
-          <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
-            <div class="pricing-box bg-gray-dark">
-              <div class="pricing-box-tittle">Sites</div>
-              <p>Sites institucionais</p>
-              <hr />
-              a partir de
-              <div class="pricing-box-inner"><span class="pricing-box-symbol">R$</span><span
-                  class="pricing-box-price">90,00</span></div>
-              <div class="pricing-box-label bg-gray">MENSAIS</div>
-              <p>Design Responsivo <br> Identidade visual <br> SEO e Google Analytics</p><a
-                class="button button-190 button-circle btn-primary-rounded" href="site.html">Saber mais</a>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
-            <div class="pricing-box bg-gray-primary">
-              <div class="pricing-box-tittle">E-commerce</div>
-              <p>Loja virtual</p>
-              <hr />
-              a partir de
-              <div class="pricing-box-inner"><span class="pricing-box-symbol">R$</span><span
-                  class="pricing-box-price">135,00</span></div>
-              <div class="pricing-box-label bg-gray-primary-light">MENSAIS</div>
-              <p>Carrinho de compras <br> Sistemas de frete e pagamento <br> CMS (Gerenciador)</p><a
-                class="button button-190 button-circle btn-rounded-outline" href="ecommerce.html">Saber mais</a>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
-            <div class="pricing-box bg-gray-dark">
-              <div class="pricing-box-tittle">Sistemas Web</div>
-              <p>Portais de notícias, entre outros</p>
-              <hr />
-              a partir de
-              <div class="pricing-box-inner"><span class="pricing-box-symbol">R$</span><span
-                  class="pricing-box-price">150,00</span></div>
-              <div class="pricing-box-label bg-gray">MENSAIS</div>
-              <p>Sistema de cadastro e login <br> CMS com painel administrativo e gerenciamento de conteúdo</p><a
-                class="button button-190 button-circle btn-primary-rounded" href="sistema-web.html">Saber mais</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="container text-center">
-        <h5>Todos os itens de Sites Institucionais se aplicam aos outros dois planos</h5>
-      </div>
-    </section>
+            <div class="container text-center">
+                <h5>Todos os itens de Sites Institucionais se aplicam aos outros dois planos</h5>
+            </div>
+        </section>
 
-    <!--Owl Carousel-->
-    <!-- <section class="section section-md bg-gray-lighten">
+        <!--Owl Carousel-->
+        <!-- <section class="section section-md bg-gray-lighten">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-10">
@@ -486,90 +468,87 @@
       </div>
     </section> -->
 
-    <!--Footer--><a class="section section-banner" href="https://www.tecnorth.com.br" target="_blank"
-      style="background-image: url(images/foreground-01-1600x310.png); background-image: -webkit-image-set( url(images/foreground-01-1600x310.png) 1x, url(images/foreground-01-1600x310.png) 2x )"><img
-        src="images/foreground-01-1600x310.png"
-        srcset="images/foreground-01-1600x310.png 1x, images/foreground-01-1600x310.png 2x"
-        alt="Banner Secundário Tec North" title="Banner Secundário Tec North" width="1600" height="310"></a>
-    <footer class="section footer-classic section-sm">
-      <div class="container">
-        <div class="row row-30">
-          <div class="col-lg-3 wow fadeInLeft">
-            <!--Brand--><a class="brand" href="https://tecnorth.com.br/"><img class="brand-logo-dark"
-                src="images/logo-default-200x34.png" alt="Logo Footer Tec North" title="Logo Footer Tec North"
-                height="12" /><img class="brand-logo-light" src="images/logo-inverse-200x34.png"
-                alt="Logo Footer Tec North" title="Logo Footer Tec North" height="12" /></a>
-            <p class="footer-classic-description offset-top-0 offset-right-25">A Tec North é uma empresa de
-              desenvolvimento web, que busca sempre trabalhar com inovação e criatividade, de forma a trazer sempre
-              soluções em tecnologia para os nossos clientes. <a href="sobre.html">Clique aqui</a> e saiba mais.</p>
-          </div>
-          <div class="col-lg-3 col-sm-8 wow fadeInUp">
-            <p class="footer-classic-title">Informações de contato</p>
-            <div class="d-block offset-top-0">Rua José de Queiroz Pessoa, 1812, <span class="d-lg-block">Centro,
+        <!--Footer-->
+        <a class="section section-banner" href="https://www.tecnorth.com.br" target="_blank" style="background-image: url(images/foreground-01-1600x310.png); background-image: -webkit-image-set( url(images/foreground-01-1600x310.png) 1x, url(images/foreground-01-1600x310.png) 2x )"><img src="images/foreground-01-1600x310.png" srcset="images/foreground-01-1600x310.png 1x, images/foreground-01-1600x310.png 2x" alt="Banner Secundário Tec North" title="Banner Secundário Tec North" width="1600" height="310"></a>
+        <footer class="section footer-classic section-sm">
+            <div class="container">
+                <div class="row row-30">
+                    <div class="col-lg-3 wow fadeInLeft">
+                        <!--Brand-->
+                        <a class="brand" href="https://tecnorth.com.br/"><img class="brand-logo-dark" src="images/logo-default-200x34.png" alt="Logo Footer Tec North" title="Logo Footer Tec North" height="12" /><img class="brand-logo-light" src="images/logo-inverse-200x34.png" alt="Logo Footer Tec North"
+                                title="Logo Footer Tec North" height="12" /></a>
+                        <p class="footer-classic-description offset-top-0 offset-right-25">A Tec North é uma empresa de desenvolvimento web, que busca sempre trabalhar com inovação e criatividade, de forma a trazer sempre soluções em tecnologia para os nossos clientes. <a href="sobre.html">Clique aqui</a> e saiba mais.</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-8 wow fadeInUp">
+                        <p class="footer-classic-title">Informações de contato</p>
+                        <div class="d-block offset-top-0">Rua José de Queiroz Pessoa, 1812, <span class="d-lg-block">Centro,
                 Quixadá-CE</span></div>
-            <a class="d-inline-block accent-link"
-              href="mailto:tecnorth@tecnorth.com.br">tecnorth@tecnorth.com.br</a><br>
-            <a class="d-inline-block accent-link" href="https://wa.me/message/AV4DPSQTQOA6E1">(88) 9.8163-2064</a>
-            <ul>
-              <li>Segunda à sexta:<span class="d-inline-block offset-left-10 text-white">9:00h - 17:00h</span></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
-            <P class="footer-classic-title">Links</P>
-            <ul class="footer-classic-nav-list">
-              <li><a href="https://tecnorth.com.br/">Início</a></li>
-              <li><a href="sobre.html">Sobre Nós</a></li>
-              <li><a href="servicos.html">Serviços</a></li>
-              <li><a href="portfolio.html">Portfólio</a></li>
-              <li class="rd-nav-item dropdown">
-                <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="d-inline-block accent-link" href="mailto:tecnorth@tecnorth.com.br">tecnorth@tecnorth.com.br</a><br>
+                        <a class="d-inline-block accent-link" href="https://wa.me/message/AV4DPSQTQOA6E1">(88) 9.8163-2064</a>
+                        <ul>
+                            <li>Segunda à sexta:<span class="d-inline-block offset-left-10 text-white">9:00h - 17:00h</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-sm-4 wow fadeInUp" data-wow-delay=".3s">
+                        <P class="footer-classic-title">Links</P>
+                        <ul class="footer-classic-nav-list">
+                            <li><a href="https://tecnorth.com.br/">Início</a></li>
+                            <li><a href="sobre.html">Sobre Nós</a></li>
+                            <li><a href="servicos.html">Serviços</a></li>
+                            <li><a href="portfolio.html">Portfólio</a></li>
+                            <li class="rd-nav-item dropdown">
+                                <a class="rd-nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Blogs
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <!-- <small class="center dropdown-item">Blogs dos desenvolvedores</small> -->
-                  <a class="dropdown-item" href="https://roberlancarvalho.com/" target="_blank">Roberlan Carvalho</a>
-                  <a class="dropdown-item" href="#">Christian Castro</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <!-- <small class="center dropdown-item">Blogs dos desenvolvedores</small> -->
+                                    <a class="dropdown-item" href="https://roberlancarvalho.com/" target="_blank">Roberlan Carvalho</a>
+                                    <a class="dropdown-item" href="#">Christian Castro</a>
+                                </div>
+                            </li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
+                        <P class="footer-classic-title">newsletter</P>
+                        <form class="rd-mailform text-left footer-classic-subscribe-form" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                            <div class="form-wrap">
+                                <label class="form-label" for="subscribe-email">Seu endereço de e-mail</label>
+                                <input class="form-input" id="subscribe-email" type="email" name="email" data-constraints="@Email @Required">
+                            </div>
+                            <div class="form-button group-sm text-center text-lg-left">
+                                <button class="button button-primary button-circle" type="submit">enviar</button>
+                            </div>
+                        </form>
+                        <p>Seja o primeiro a descobrir nossas últimas notícias, atualizações e ofertas especiais.</p>
+                    </div>
                 </div>
-              </li>
-              <li><a href="contato.html">Contato</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 wow fadeInLeft" data-wow-delay=".2s">
-            <P class="footer-classic-title">newsletter</P>
-            <form class="rd-mailform text-left footer-classic-subscribe-form" data-form-output="form-output-global"
-              data-form-type="contact" method="post" action="bat/rd-mailform.php">
-              <div class="form-wrap">
-                <label class="form-label" for="subscribe-email">Seu endereço de e-mail</label>
-                <input class="form-input" id="subscribe-email" type="email" name="email"
-                  data-constraints="@Email @Required">
-              </div>
-              <div class="form-button group-sm text-center text-lg-left">
-                <button class="button button-primary button-circle" type="submit">enviar</button>
-              </div>
-            </form>
-            <p>Seja o primeiro a descobrir nossas últimas notícias, atualizações e ofertas especiais.</p>
-          </div>
+            </div>
+            <div class="container wow fadeInUp" data-wow-delay=".4s">
+                <div class="footer-classic-aside">
+                    <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. Todos os direitos reservados. Desenvolvido por <a href="https://www.tecnorth.com.br">Tec North</a></p>
+                    <ul class="social-links">
+                        <li>
+                            <a class="fa fa-linkedin" href="https://www.linkedin.com/company/tec-north-desenvolvimento/"></a>
+                        </li>
+                        <li>
+                            <a class="fa fa-facebook" href="https://www.facebook.com/tecnorth/"></a>
+                        </li>
+                        <li>
+                            <a class="fa fa-instagram" href="https://www.instagram.com/tecnorth/"></a>
+                        </li>
+                        <li>
+                            <a class="fa fa fa-twitter" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
         </div>
-      </div>
-      <div class="container wow fadeInUp" data-wow-delay=".4s">
-        <div class="footer-classic-aside">
-          <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span>. Todos os direitos reservados.
-            Desenvolvido por <a href="https://www.tecnorth.com.br">Tec North</a></p>
-          <ul class="social-links">
-            <li><a class="fa fa-linkedin" href="https://www.linkedin.com/company/tec-north-desenvolvimento/"></a></li>
-            <li><a class="fa fa-facebook" href="https://www.facebook.com/tecnorth/"></a></li>
-            <li><a class="fa fa-instagram" href="https://www.instagram.com/tecnorth/"></a></li>
-            <li><a class="fa fa fa-twitter" href="#"></a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <div class="snackbars" id="form-output-global"></div>
-  <script src="js/core.min.js"></script>
-  <script src="js/script.js"></script>
-  <!--coded by Drel-->
+        <div class="snackbars" id="form-output-global"></div>
+        <script src="js/core.min.js"></script>
+        <script src="js/script.js"></script>
+        <!--coded by Drel-->
 </body>
 
 </html>
