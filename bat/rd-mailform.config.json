@@ -1,8 +1,8 @@
 {
   "useSmtp": false,
-  "host": "ns1000.hostgator.com.br",
+  "host": "******************",
   "port": 465,
-  "username": "tecno738",
-  "password": "joao030107",
+  "username": "*****",
+  "password": "******",
   "recipientEmail": "tecnorth@tecnorth.com"
 }
